@@ -1,0 +1,13 @@
+{
+  "name": "pruebatecnica",
+  "version": "1.0.0",
+  "description": "Open Desktop docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "docker-compose build && docker-compose up"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
