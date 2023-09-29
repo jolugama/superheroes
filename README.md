@@ -23,10 +23,13 @@ zip super-hero.zip server.tar angular.tar docker-compose.yml
 
 ## Client
 
-### Load images
+### Load images and run
 docker load -i server.tar
 docker load -i angular.tar
 docker-compose up
+
+docker run -d -p 3000:3000 --name my-server pruebatecnica-server
+docker run -d -p 4200:4200 --name my-angular-app pruebatecnica-angular
 
 
 
