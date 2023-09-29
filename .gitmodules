@@ -1,6 +1,6 @@
 [submodule "server"]
-	path = server
-	url = ./server
+    path = server
+    url = https://github.com/jolugama/server.git
 [submodule "angular"]
-	path = angular
-	url = ./angular
+    path = angular
+    url = https://github.com/jolugama/angular.git
