@@ -8,7 +8,8 @@ Open Desktop docker
 docker-compose build
 
 ### Run containers
-docker-compose up
+docker-compose down
+docker-compose up --build
 
 ### Save docker images in tar
 docker images
